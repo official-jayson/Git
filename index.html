@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/fe72f14ea3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./jay/sans.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                
+                
+                <h1>Welcome to <span>Sanmec consultancy</span><br>Designer Portfolio <span> – Where<br> Creativity Shines !!</span><br>Explore design at its finest!</h1>
+            </div>
+        </div>
+    </div>
+
+<!-- ----------about ---------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./jay/IMG-20231005-WA0019.jpg"  >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>At Sanmec consultancy, am passionate about design and committed to crafting captivating visual experiences.
+                        With a keen eye for detail and a deep understanding of aesthetics, am specialize in bringing ideas to life through my design process.
+                        </p>
+
+                       <p>Whether you're looking for design inspiration or considering a collaboration, am excited to share my passion for design with you.
+                        Welcome to my creative journey</p>
+
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')"><b>Skills</b></p>
+                                <p class="tab-links" onclick="opentab('experience')"><b>Experience</b></p>
+                                <p class="tab-links" onclick="opentab('education')"><b>Education</b></p>
+                            </div>
+
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>UI/UX DESIGN</span><br>Designing Web/APP interfaces</li>
+                                    <li><span>WEB DESIGN</span><br>Crafting seamless,User-centric Websites</li>
+                                    <li><span>DIGITAL MARKETING DESIGN</span><br>Social media graphics and digital ads</li>
+                                </ul>
+                            </div>
+                            
+                        
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>2023 - Current</span><br>UI/UX in Intercounties Progressive Societies</li>
+                                    <li><span>2021 - 2022</span><br>Mother Teresa Children Home</li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>2023</span><br>NairoBits Trust (Diploma in Multidisciplinary Design) </li>
+                                    <li><span>2022 – 2019</span><br>Loreto Boys Highschool (Kenya Certificate of Secondary Education )</li>
+                                    <li><span>2017– 2010</span><br>Shadrack Kimalel Primary (Kenya Certificate of Primary Education)</li>
+                                </ul>
+                            </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ---------services----- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1> 
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    
+                    <h2>UI/UX DESIGN</h2>
+                    <p>User Interface (UI) and User Experience (UX) design are integral aspects of my creative process.
+                         <br>I understand that design isn't just about aesthetics; it's also about how users 
+                         interact with and experience a product or website </p>
+                         
+                        
+                </div>
+                <div>
+                    <i class="fa-solid fa-desktop"></i>
+                    <h2>WEB DESIGN</h2>
+                    <p>Web design is the art and science of creating visually appealing, functional,and user-friendly websites.
+                        At Sanmec consultancy, my web design skills are at the forefront of modern digital aesthetics and technology</p>
+                         
+                </div>
+                <div>
+                    <i class="fa-solid fa-hashtag"></i>
+                    <h2>DIGITAL MARKETING</h2>
+                    <p> Whether it's crafting attention-grabbing social media graphics, designing impactful email campaigns, or developing eye-catching digital ads,
+                        my designs are tailored to excel in the online landscape, driving engagement and results for your brand.</p>
+                         
+                </div>
+
+                
+
+
+            </div>
+        </div>
+    </div>
+
+<!-- ---------portfolio-------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./jay/port-1.jpg">
+                <div class="layer">
+                    <h3>Suit Branding</h3>
+                    
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./jay/port-2.jpg">
+                <div class="layer">
+                    <h3>Product Brands</h3>
+                   
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./jay/port-3.jpg">
+                <div class="layer">
+                    <h3>Poster Designs</h3>
+                    
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="./jay/port-4.jpg">
+                <div class="layer">
+                    <h3>Weather App</h3>
+                    
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="./jay/port-5.jpg">
+                <div class="layer">
+                    <h3>Shoe App</h3>
+                   
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="./jay/port-6.jpg">
+                <div class="layer">
+                    <h3>Sacco App</h3>
+                    
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="./jay/port-7.jpg">
+                <div class="layer">
+                    <h3>Electronic Web</h3>
+                    
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="./jay/port-8.jpg">
+                <div class="layer">
+                    <h3>Sacco Web</h3>
+                    
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="./jay/port-9.jpg">
+                <div class="layer">
+                    <h3>Portfolio Web</h3>
+                    
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+        </div>
+       
+    </div>
+</div>
+
+<!-- ----------------contact---------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> jaysonmecha004@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> +254 713 358 514</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+                  
+                    <a href="https://www.facebook.com/profile.php?id=100090506322177"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/jayson-mecha-1904b8267/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="./jay/Curriculum Vitae.pdf" download class="btn btn2">Download CV </a>
+            </div>
+            <div class="contact-right">
+                <form >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="copyright">
+            <p>Copyright @ Sanmec Consultancy <i class="fa-solid fa-moon"></i></p>
+            <p>" We Bring Skills to Reality "<i class="fa-brands fa-call"></i></p>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
